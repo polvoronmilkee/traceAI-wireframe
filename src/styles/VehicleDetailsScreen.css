@@ -11,7 +11,7 @@
   align-items: center;
   gap: 12px;
   padding: 16px;
-  background: linear-gradient(135deg, var(--primary) 0%, #004fc4 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #1e4f7f 100%);
   color: white;
   border-bottom: 1px solid var(--border);
   position: sticky;
@@ -80,7 +80,7 @@
 
 .occupancy-fill {
   height: 100%;
-  background: linear-gradient(90deg, #00aa00 0%, #ffa500 50%, #ff6b6b 100%);
+  background: linear-gradient(90deg, #00aa00 0%, #ffbf01 50%, #ff6b6b 100%);
   transition: width 0.3s ease;
 }
 
@@ -130,7 +130,7 @@
 }
 
 .action-btn.primary {
-  background: linear-gradient(135deg, var(--primary) 0%, #004fc4 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #1e4f7f 100%);
   color: white;
 }
 

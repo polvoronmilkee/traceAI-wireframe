@@ -67,11 +67,11 @@ export default function MapScreen({
   const getVehicleColor = (type: string) => {
     switch (type) {
       case 'bus':
-        return '#FFD700' // Yellow
+        return '#ffbf01' // Yellow
       case 'minibus':
         return '#00AA00' // Green
       case 'van':
-        return '#0066FF' // Blue
+        return '#2d70ae' // Blue
       default:
         return '#999'
     }
@@ -169,7 +169,7 @@ export default function MapScreen({
 
       <div className="legend">
         <div className="legend-item">
-          <div className="pin" style={{ backgroundColor: '#FFD700' }}></div>
+          <div className="pin" style={{ backgroundColor: '#ffbf01' }}></div>
           <span>Ceres Buses</span>
         </div>
         <div className="legend-item">
@@ -177,7 +177,7 @@ export default function MapScreen({
           <span>Mini Buses</span>
         </div>
         <div className="legend-item">
-          <div className="pin" style={{ backgroundColor: '#0066FF' }}></div>
+          <div className="pin" style={{ backgroundColor: '#2d70ae' }}></div>
           <span>Vans</span>
         </div>
       </div>

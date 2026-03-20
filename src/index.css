@@ -1,5 +1,5 @@
 :root {
-  --primary: #0066ff;
+  --primary: #2d70ae;
   --secondary: #00aa00;
   --warning: #ffa500;
   --danger: #ff4444;
@@ -63,7 +63,7 @@ textarea {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #004fc4;
+  background: #1e4f7f;
 }
 
 h2 {

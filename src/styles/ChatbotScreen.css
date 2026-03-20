@@ -10,7 +10,7 @@
   align-items: center;
   gap: 12px;
   padding: 16px;
-  background: linear-gradient(135deg, var(--primary) 0%, #004fc4 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #1e4f7f 100%);
   color: white;
   border-bottom: 1px solid var(--border);
   position: sticky;
@@ -68,7 +68,7 @@
 }
 
 .message.user .message-content p {
-  background: linear-gradient(135deg, var(--primary) 0%, #004fc4 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #1e4f7f 100%);
   color: white;
 }
 
@@ -149,7 +149,7 @@
 
 .send-btn {
   padding: 10px 20px;
-  background: linear-gradient(135deg, var(--primary) 0%, #004fc4 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #1e4f7f 100%);
   color: white;
   border: none;
   border-radius: 20px;

@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary: #0066ff;
+  --primary: #2d70ae;
   --secondary: #00aa00;
   --warning: #ffa500;
   --danger: #ff4444;
@@ -31,7 +31,7 @@ body {
 }
 
 .app-header {
-  background: linear-gradient(135deg, var(--primary) 0%, #004fc4 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #1e4f7f 100%);
   color: white;
   padding: 16px 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -81,7 +81,7 @@ body {
 }
 
 .nav-btn.active {
-  background: linear-gradient(135deg, var(--primary) 0%, #004fc4 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #1e4f7f 100%);
   color: white;
 }
 
@@ -115,5 +115,5 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #004fc4;
+  background: #1e4f7f;
 }
