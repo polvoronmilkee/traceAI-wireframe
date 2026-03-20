@@ -33,19 +33,35 @@ body {
 .app-header {
   background: linear-gradient(135deg, var(--primary) 0%, #1e4f7f 100%);
   color: white;
-  padding: 16px 20px;
+  padding: 12px 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.header-content {
   text-align: center;
 }
 
 .app-header h1 {
-  font-size: 28px;
-  margin-bottom: 4px;
+  font-size: 24px;
+  margin-bottom: 2px;
+  margin: 0;
 }
 
 .app-header .subtitle {
   font-size: 12px;
   opacity: 0.9;
+  margin: 0;
 }
 
 .app-content {

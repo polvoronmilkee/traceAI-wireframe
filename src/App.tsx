@@ -23,8 +23,11 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>🚌 TraceAI</h1>
-        <p className="subtitle">Smart Public Transportation Navigation</p>
+        <img src="/traceai-logo.svg" alt="TraceAI Logo" className="logo" />
+        <div className="header-content">
+          <h1>TraceAI</h1>
+          <p className="subtitle">Smart Public Transportation Navigation</p>
+        </div>
       </header>
 
       <main className="app-content">

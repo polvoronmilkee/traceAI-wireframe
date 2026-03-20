@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Blue background circle -->
+  <circle cx="100" cy="100" r="100" fill="#2d70ae"/>
+  
+  <!-- White circle -->
+  <circle cx="100" cy="100" r="85" fill="white"/>
+  
+  <!-- Blue bus/vehicle with yellow smile -->
+  <g transform="translate(100, 100)">
+    <!-- Bus body -->
+    <rect x="-35" y="-30" width="70" height="60" rx="8" fill="#2d70ae"/>
+    
+    <!-- Windows/top section -->
+    <rect x="-28" y="-25" width="56" height="20" rx="4" fill="#1e4f7f"/>
+    
+    <!-- Door/front section -->
+    <rect x="-28" y="0" width="56" height="25" rx="2" fill="#1e4f7f"/>
+    
+    <!-- Left headlight -->
+    <circle cx="-22" cy="-18" r="5" fill="#ffbf01"/>
+    
+    <!-- Right headlight -->
+    <circle cx="22" cy="-18" r="5" fill="#ffbf01"/>
+    
+    <!-- Yellow smile arc -->
+    <path d="M -15 8 Q 0 18 15 8" stroke="#ffbf01" stroke-width="4" fill="none" stroke-linecap="round"/>
+    
+    <!-- Left wheel -->
+    <circle cx="-20" cy="32" r="8" fill="#2d70ae" stroke="#1e4f7f" stroke-width="2"/>
+    <circle cx="-20" cy="32" r="5" fill="#1e4f7f"/>
+    
+    <!-- Right wheel -->
+    <circle cx="20" cy="32" r="8" fill="#2d70ae" stroke="#1e4f7f" stroke-width="2"/>
+    <circle cx="20" cy="32" r="5" fill="#1e4f7f"/>
+  </g>
+</svg>
